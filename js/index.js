@@ -50,9 +50,23 @@ navBtns[3].textContent = siteContent.nav['nav-item-4'];
 navBtns[4].textContent = siteContent.nav['nav-item-5'];
 navBtns[5].textContent = siteContent.nav['nav-item-6'];
 
+// ---------Add new content
 const green = document.querySelectorAll('a');
 green.forEach(item => item.style.color = 'green');
 
+const navBar = document.querySelector('header nav');
+
+const prepenedEl = document.createElement('h2');
+prepenedEl.textContent = 'Click Me';
+navBar.prepend(prepenedEl);
+prepenedEl.style.color ='pink';
+
+const appendedEl = document.querySelector('a');
+appendedEl.textContent = 'Click the First One..';
+navBar.appendChild(appendedEl);
+appendedEl.style.color = 'purple';
+appendedEl.style.fontWeight = 'bold';
+//--------------------------------------------------------
 
 const heading = document.querySelector('h1');
 heading.textContent = siteContent.cta['h1'];
