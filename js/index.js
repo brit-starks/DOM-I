@@ -72,3 +72,11 @@ contentTitle[5].textContent = siteContent.contact['contact-h4'];
 
 
 contentP[0].textContent = siteContent['main-content']['features-content'];
+contentP[1].textContent = siteContent['main-content']['about-content'];
+contentP[2].textContent = siteContent['main-content']['services-content'];
+contentP[3].textContent = siteContent['main-content']['product-content'];
+contentP[4].textContent = siteContent['main-content']['vision-content'];
+contentP[5].textContent = siteContent.contact['address'];
+contentP[6].textContent = siteContent.contact['phone'];
+contentP[7].textContent = siteContent.contact['email'];
+contentP[8].textContent = siteContent.footer['copyright'];
