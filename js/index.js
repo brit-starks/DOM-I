@@ -60,6 +60,9 @@ headingBtn.textContent = siteContent.cta['button'];
 const codeImg = document.querySelector('#cta-img');
 codeImg.src = siteContent.cta['img-src'];
 
+const midImg = document.querySelector('#middle-img');
+midImg.src = siteContent['main-content']['middle-img-src'];
+
 const contentTitle = document.querySelectorAll('h4');
 const contentP = document.querySelectorAll('p');
 
