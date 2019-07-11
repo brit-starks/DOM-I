@@ -44,3 +44,9 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 const navBtns = document.querySelectorAll('nav a');
 
 navBtns[0].textContent = siteContent.nav['nav-item-1'];
+navBtns[1].textContent = siteContent.nav['nav-item-2'];
+navBtns[2].textContent = siteContent.nav['nav-item-3'];
+navBtns[3].textContent = siteContent.nav['nav-item-4'];
+navBtns[4].textContent = siteContent.nav['nav-item-5'];
+navBtns[5].textContent = siteContent.nav['nav-item-6'];
+
