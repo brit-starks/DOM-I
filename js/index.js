@@ -50,6 +50,9 @@ navBtns[3].textContent = siteContent.nav['nav-item-4'];
 navBtns[4].textContent = siteContent.nav['nav-item-5'];
 navBtns[5].textContent = siteContent.nav['nav-item-6'];
 
+const green = document.querySelectorAll('a');
+green.forEach(item => item.style.color = 'green');
+
 
 const heading = document.querySelector('h1');
 heading.textContent = siteContent.cta['h1'];
